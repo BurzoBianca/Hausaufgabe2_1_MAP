@@ -45,7 +45,7 @@ class BenutzerTest {
         Sport hindernislauf = new Hindernislauf();
         Sport hochsprung = new Hochsprung();
 
-        Benutzer benutzer = new Benutzer("Smith", "Bob", Arrays.asList(basketball, fussball, hindernislauf, hochsprung));
+        Benutzer benutzer = new Benutzer("Bianca", "Burzo", Arrays.asList(basketball, fussball, hindernislauf, hochsprung));
         assertEquals(benutzer.kalkuliereDurschnittszeit(), benutzer.kalkuliereZeit() / 4);
     }
 }
